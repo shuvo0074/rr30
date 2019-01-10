@@ -1,27 +1,69 @@
 .App {
   text-align: center;
+  background-color: black;
+  height: 100%;
+  flex: 1;
+  width: 100%;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-}
-
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: 20%;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  background-color: #cc8920;
+  width: 100%;
+}
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 40vmin;
+}
+.Body-text {
+  color: #cc8920;
+  align-self: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bolder;
+}
+.Header {
+  align-self: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-weight: bolder;
+  width: 100%;
+  color: antiquewhite;
 }
 
-.App-link {
-  color: #61dafb;
+.Button-holder {
+  flex: 1;
+  display: flow-root ;
+  height: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-left: 400px;
+}
+.Blank {
+  flex: 20%;
 }
 
+.App-body {
+  color: brown;
+  height: 100%;
+  flex:1;
+  width: 100%;
+}
+.Header-button {
+  background-color: rgba(49, 5, 53, 0.466);
+  border-radius: 5px;
+  color: rgb(248, 248, 248);
+  margin: 5px;
+  padding: 5px;
+  min-height: 50px;
+  height: 100%;
+  width: 120px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
